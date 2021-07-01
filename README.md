@@ -98,7 +98,9 @@ Run the command for Recognise :
 pyhton3 recognise.py -m 'experiment/best.pth.tar' -d 'classification/vid2' -s True -o 'recognise.mp4'
 ```
 
-
+## Reference 
+1. https://openaccess.thecvf.com/content_cvpr_2017/papers/Valmadre_End-To-End_Representation_Learning_CVPR_2017_paper.pdf
+2. https://github.com/rafellerc/Pytorch-SiamFC
 
 
 
