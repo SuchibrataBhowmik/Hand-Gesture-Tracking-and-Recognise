@@ -60,7 +60,7 @@ By default dataset path is 'hand_dataset'.
 
 ## Evaluate
 Here I am evaluate modle output center with original center of gesture and plot center error.  
-Also compare study on tracking with deep learning trained model with opencv optical flow method(unsupervised method)  
+Also compare study on deep learning trained model with opencv optical flow method(unsupervised method) in tracking.  
 **Evaluate on a video by trained model**
 ```
 python3 evaluation.py -m 'trained_model_path' -d 'frames_path_of_video' -a 'frame_annotations_path' -of 'reference_object_frame' -s save_the_output(True/False) -o 'output_video_path'
