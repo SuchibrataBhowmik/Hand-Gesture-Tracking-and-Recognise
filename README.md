@@ -52,7 +52,7 @@ pip3 install torch==1.9.0+cpu torchvision==0.10.0+cpu torchaudio==0.9.0 -f https
 ```
 python3 train.py -d 'full_path_of_dataset_root' 
 ```
-Run the command for training
+Run the command for training :
 ```
 python3 train.py -d 'hand_dataset'  
 ```
@@ -91,6 +91,7 @@ Then draw a bounding box by mouse on reference object frame. Then press enter.
 ```
 pyhton3 recognise.py -m 'trained_model_path' -d 'frames_path_of_video' -s save_the_output(True/False) -o 'output_video_path'
 ```
+Run the command for Recognise :
 ```
 pyhton3 recognise.py -m 'experiment/best.pth.tar' -d 'classification/vid2' -s True -o 'recognise.mp4'
 ```
